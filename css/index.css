@@ -1,7 +1,9 @@
 @font-face
 {
 	font-family: FreakGrotesque Next;
-	src: url('/FREAKGrotesk-next.otf');
+	src: url('web-cv/FREAKGrotesk-next.otf');
+	font-weight: normal;
+  font-style: normal;
 }
 html {
 	background-attachment: fixed;
