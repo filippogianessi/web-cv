@@ -1,0 +1,28 @@
+{
+  "name": "filippogianessi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "dependencies": {
+    "animate.css": "^3.5.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/filippogianessi/my-website-2.0.git"
+  },
+  "keywords": [
+    "filippo",
+    "gianessi",
+    "designer"
+  ],
+  "author": "Filippo Gianessi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/filippogianessi/my-website-2.0/issues"
+  },
+  "homepage": "https://github.com/filippogianessi/my-website-2.0#readme"
+}

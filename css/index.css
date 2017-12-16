@@ -1,0 +1,196 @@
+@font-face
+{
+	font-family: FreakGrotesque Next;
+	src: url('/Users/filippogianessi/Documents/Works/My Works/my website 2.0/asset/font/FREAKGrotesk-next.otf');
+}
+html {
+	background-attachment: fixed;
+	background: -webkit-gradient(linear, left top, right bottom, from(#68E0E6), to(#005AFF));
+	background: -webkit-linear-gradient(top left, #68E0E6, #005AFF);
+	background: -o-linear-gradient(top left, #68E0E6, #005AFF);
+	background: linear-gradient(to bottom right, #68E0E6, #005AFF);
+	height: 100%;
+    margin:0px;
+    background-size: cover;
+
+}
+body {
+}
+
+a {
+	text-decoration: none;
+}
+
+#granim-canvas{
+
+ 	    position: fixed;
+ 	    display: block;
+ 	    width: 100%;
+ 	    height: 100%;
+ 	    top: 0;
+ 	    right: 0;
+ 	    bottom: 0;
+ 	    left: 0;
+ 	    z-index: -2;
+ 	    background-attachment: fixed;
+
+ }
+
+.header__text {
+	font-size: 4em;
+	font-family: "FreakGrotesque Next", sans-serif;
+	color: white;
+	text-align: center;
+	margin-bottom: 1em;
+	/*font-feature-settings: "ss08";*/
+}
+
+.header__container {
+    margin: 96px 120px 32px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+
+.header__secondary-text {
+	font-size: 1.6em;
+	font-family: "FreakGrotesque Next", sans-serif;
+	color: white;
+	text-align: center;
+}
+
+.links__container {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: reverse;
+	    -ms-flex-direction: row-reverse;
+	        flex-direction: row-reverse;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	}
+
+.links__item {
+
+	font-size: 1.2em;
+	font-family: "FreakGrotesque Next", sans-serif;
+	text-align: center;
+	background-color: white;
+	padding: 16px;
+	margin: 8px;
+	color: black;
+	/*transition: all 0.2s ease-in-out;*/
+	cursor: pointer;
+	border-bottom: solid 2px grey;
+  -webkit-transform: skewX(10%);
+      -ms-transform: skewX(10%);
+          transform: skewX(10%);
+}
+
+.links__item:hover {
+	background-color: #eee;
+	border-bottom: none;
+
+}
+.divider__header {
+	height: 40em;
+	width: 2px;
+	background-color: white;
+	margin: 56px;
+}
+.divider__container {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	}
+
+.resume__container {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	margin: 96px;
+	-webkit-box-align: start;
+	    -ms-flex-align: start;
+	        align-items: start;
+}
+
+.education__container {
+	display: grid;
+	grid-template-columns: 16% 84%;
+	margin: 32px;
+}
+
+.jobs__container {
+	display: grid;
+	grid-template-columns: 16% 84%;
+	margin: 32px;
+
+}
+
+.resume__title {
+	font-size: 1.6em;
+	font-family: "FreakGrotesque Next", sans-serif;
+	color: white;
+	margin: 32px 0;
+	text-decoration: underline;
+}
+
+.resume__text {
+	font-size: 1.4em;
+	font-family: "FreakGrotesque Next", sans-serif;
+	color: white;
+	margin-bottom: 16px;
+	line-height: 1.4;
+}
+
+.resume__link {
+	color: white;
+	text-decoration: underline;
+}
+.resume__link:hover {
+	 background-color: black;
+}
+.resume__icon {
+  width: 3.5em;
+  margin: 32px 0;
+}
+.credits__container {
+	width: 100%;
+	margin-bottom: 56px;
+}
+.credits__text {
+	font-size: 1.2em;
+	font-family: "FreakGrotesque Next", sans-serif;
+	color: white;
+	text-align: center;
+}
+
+.change-ss__container {
+	position: fixed;
+	z-index: 5;
+	background: black;
+	width: 160px;
+	bottom: 16px;
+	padding: 16px;
+	right: 16px;
+	animation-delay: 1s;
+}
+
+.change-ss__text {
+	font-size: 1em;
+	font-family: "FreakGrotesque Next", sans-serif;
+	color: white;
+	text-align: center;
+	line-height: 1.4;
+}
