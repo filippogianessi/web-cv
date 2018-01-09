@@ -48,7 +48,7 @@ a {
 }
 
 .header__container {
-    margin: 96px 120px 32px;
+    margin: 160px 120px 32px;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -195,4 +195,106 @@ a {
 	color: white;
 	text-align: center;
 	line-height: 1.4;
+}
+
+.marquee__container {
+  position: fixed;
+  width: inherit;
+  top: 0;
+  left: 0;
+  height: 40px;
+  overflow: hidden;
+  background-color: black!important;
+  border-bottom: 0.15em solid #000000;
+  z-index: 10000000;
+  width: 150%;
+  text-align: left;
+  padding: 8px;
+}
+
+.bottom-line__text {
+  margin-top: 4px;
+  font-size: 2em;
+  font-family: "FreakGrotesque Next", sans-serif;
+  font-weight: bold;
+	color: white;
+
+}
+
+.marquee {
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.marquee__text {
+    padding-left: 100%;
+    animation: marquee 20s linear infinite;
+}
+@keyframes marquee {
+    0%   { transform: translate(0, 0); }
+    100% { transform: translate(-250%, 0); }
+}
+
+
+.link-1 {
+  position: relative;
+  text-decoration: none;
+  display: inline-block;
+  color: black;
+  padding: 0 1px;
+  transition: color ease 0.3s;
+
+  &::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: $underlineHeight;
+    left: 0;
+    bottom: 0;
+    background-color: $underlineColor;
+    transition: all ease 0.3s;
+  }
+
+  &:hover {
+    color: white;
+
+    &::after {
+      height: 100%;
+    }
+  }
+}
+
+.service__container {
+	display: grid;
+	grid-template-columns: 16% 84%;
+	margin: 32px;
+
+}
+.services__container {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	margin: 96px;
+	-webkit-box-align: start;
+	    -ms-flex-align: start;
+	        align-items: start;
+
+}
+.service__text {
+	font-size: 1.4em;
+	font-family: "FreakGrotesque Next", sans-serif;
+	color: white;
+	margin-bottom: 16px;
+	line-height: 1.4;
+}
+.service__title {
+	font-size: 1.6em;
+	font-family: "FreakGrotesque Next", sans-serif;
+	color: white;
+	text-decoration: underline;
+	margin-bottom: 12px;
+}
+
+.service__text-container {
+
 }
