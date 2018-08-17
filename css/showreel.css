@@ -13,8 +13,9 @@
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
+  justify-content: space-evenly;
 }
 
 .showreel__image img{
-  height: 480px;
+  max-height: 480px;
 }
