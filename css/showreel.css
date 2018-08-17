@@ -1,8 +1,9 @@
 .showreel {
   width: 100%;
   background: white;
+  padding: 32px 0;
 }
 .showreel__title {
-  margin: 32px 120px;
+  margin: 16px 120px 32px;
   color: black;
 }
