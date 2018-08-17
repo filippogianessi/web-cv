@@ -17,6 +17,10 @@
   margin: 0 120px;
 }
 
+.showreel__image {
+  margin: 8px;
+}
+
 .showreel__image img{
   max-height: 480px;
 }
