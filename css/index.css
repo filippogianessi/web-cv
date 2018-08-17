@@ -46,7 +46,7 @@ a {
 }
 
 .intro__container {
-  margin: 160px 120px 32px;
+  margin: 160px 120px 16px;
 	display: grid;
 	grid-template-columns: 65% 35%;
 }
