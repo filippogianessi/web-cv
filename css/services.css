@@ -71,13 +71,13 @@ and (min-width : 1824px) {
 }
 
 /* iPhone 4 ----------- */
-@media
+/* @media
 only screen and (-webkit-min-device-pixel-ratio : 1.5),
 only screen and (min-device-pixel-ratio : 1.5) {
 	.services__container {
 		grid-template-columns: 100%;
 	}
-}
+} */
 
 
 .services {
