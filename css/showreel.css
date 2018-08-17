@@ -11,6 +11,7 @@
   margin: 0 120px;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .showreel__image img{
