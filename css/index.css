@@ -161,7 +161,7 @@ a {
 .credits__container {
 	display: grid;
 	grid-template-columns: 50% 50%;
-	margin: 56px 0 80px;
+	padding: 56px 0;
 	background: black;
 }
 .credits__text {
@@ -180,7 +180,7 @@ a {
 	flex-direction: column;
 	align-items: center;
 	align-content: center;
-	margin-bottom: 120px;
+	margin: 64px 0 96px;
 }
 
 .change-ss__container {
