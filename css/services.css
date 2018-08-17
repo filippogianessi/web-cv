@@ -1,5 +1,5 @@
 /* RETINA display */
-
+/* 
 @media screen
   and (min-device-width: 1650px)
   and (-webkit-min-device-pixel-ratio: 2)
@@ -7,7 +7,7 @@
 		.services__container {
 		    grid-template-columns: 25% 25% 25% 25%;
 		}
-}
+} */
 
 @media screen
   and (min-device-width: 1200px)
