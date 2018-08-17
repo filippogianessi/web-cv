@@ -13,6 +13,6 @@
   flex-direction: row;
 }
 
-.showreel__image{
+.showreel__image img{
   height: 320px;
 }
