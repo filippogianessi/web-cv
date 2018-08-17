@@ -1,5 +1,4 @@
 .showreel {
-  width: 100%;
   background: white;
   padding: 32px 0;
 }
@@ -13,7 +12,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
-  justify-content: center;
+  justify-content: space-around;
   margin: 0 120px;
 }
 
