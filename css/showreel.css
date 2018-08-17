@@ -1,5 +1,5 @@
 .showreel {
-  background: white;
+  background: #fbfbfb;
   padding: 32px 0;
 }
 .showreel__title {
@@ -19,4 +19,5 @@
 
 .showreel__image img{
   max-height: 480px;
+  box-shadow: 0 2px 8px 2px #eee;
 }
