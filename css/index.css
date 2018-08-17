@@ -162,6 +162,7 @@ a {
 	display: grid;
 	grid-template-columns: 50% 50%;
 	margin: 56px 0 80px;
+	background: black;
 }
 .credits__text {
 	font-size: 1.2em;
