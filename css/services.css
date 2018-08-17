@@ -60,7 +60,6 @@ and (-webkit-min-device-pixel-ratio: 2) {
     -ms-flex-align: start;
     align-items: start;
     margin: 0 120px;
-		grid-template-columns: 50% 50%;
 }
 
 
