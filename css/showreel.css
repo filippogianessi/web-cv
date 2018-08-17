@@ -21,3 +21,11 @@
   max-height: 480px;
   box-shadow: 0 2px 8px 2px #eee;
 }
+
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+  .showreel__image img{
+    max-height: 320px;
+  }
+}
