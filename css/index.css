@@ -160,7 +160,7 @@ a {
 .credits__container {
 	display: grid;
 	grid-template-columns: 50% 50%;
-	margin: 56px 0 120px;
+	margin: 56px 0 80px;
 }
 .credits__text {
 	font-size: 1.2em;
@@ -178,6 +178,7 @@ a {
 	flex-direction: column;
 	align-items: center;
 	align-content: center;
+	margin-bottom: 120px;
 }
 
 .change-ss__container {
