@@ -21,6 +21,14 @@
 		    grid-template-columns: 50% 50%;
 		}
 }
+@media screen
+  and (min-device-width: 1600px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) {
+		.services__container {
+				grid-template-columns: 25% 25% 25% 25%;
+		}
+}
 .service__container {
     display: flex;
     flex-direction: column;
