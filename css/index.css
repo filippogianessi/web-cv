@@ -159,7 +159,7 @@ a {
 }
 .credits__container {
 	display: grid;
-	grid-column: 50% 50%;
+	grid-template-columns: 50% 50%;
 	margin: 56px 0;
 }
 .credits__text {
