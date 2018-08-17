@@ -169,6 +169,10 @@ a {
 	text-align: center;
 }
 
+.credits__text span {
+	text-decoration: underline;
+}
+
 .change-ss__container {
 	position: fixed;
 	z-index: 5;
