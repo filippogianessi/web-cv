@@ -34,7 +34,7 @@
   and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 1) {
 		.services__container {
-		    grid-template-columns: 50% 50%;
+		    grid-template-columns: 100%;
 		}
 }
 
