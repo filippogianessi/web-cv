@@ -15,9 +15,51 @@
 
 .showreel__image {
   margin: 12px 8px;
+  box-shadow: 0 2px 8px 2px #eee;
 }
 
-.showreel__image img{
-  max-height: 480px;
-  box-shadow: 0 2px 8px 2px #eee;
+
+#image-1 {
+  background-image: url("asset/showreel/1.png");
+  background-size: cover;
+}
+#image-2 {
+  background-image: url("asset/showreel/5.png");
+  background-size: cover;
+}
+#image-3 {
+  background-image: url("asset/showreel/11.png");
+  background-size: cover;
+}
+#image-4 {
+  background-image: url("asset/showreel/4.png");
+  background-size: cover;
+}
+#image-5 {
+  background-image: url("asset/showreel/9.png");
+  background-size: cover;
+}
+#image-6 {
+  background-image: url("asset/showreel/2.png");
+  background-size: cover;
+}
+#image-7 {
+  background-image: url("asset/showreel/3.png");
+  background-size: cover;
+}
+#image-8 {
+  background-image: url("asset/showreel/6.png");
+  background-size: cover;
+}
+#image-9 {
+  background-image: url("asset/showreel/7.png");
+  background-size: cover;
+}
+#image-10 {
+  background-image: url("asset/showreel/8.png");
+  background-size: cover;
+}
+#image-11 {
+  background-image: url("asset/showreel/10.png");
+  background-size: cover;
 }
