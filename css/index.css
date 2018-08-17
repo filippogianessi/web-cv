@@ -39,9 +39,6 @@ a {
  }
 
 .intro__text {
-	font-size: 3em;
-	font-family: "FreakGrotesque Next", sans-serif;
-	color: white;
 	margin-bottom: 1em;
 	/*font-feature-settings: "ss08";*/
 }
