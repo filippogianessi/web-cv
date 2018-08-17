@@ -49,6 +49,10 @@ a {
 	grid-template-columns: 60% 40%;
 }
 
+.intro__logo {
+	justify-self: end;
+}
+
 
 .links__container {
 	display: -webkit-box;
