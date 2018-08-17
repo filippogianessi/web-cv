@@ -173,6 +173,13 @@ a {
 	text-decoration: underline;
 }
 
+.madeby__container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-content: center;
+}
+
 .change-ss__container {
 	position: fixed;
 	z-index: 5;
