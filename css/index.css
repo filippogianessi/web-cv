@@ -46,7 +46,7 @@ a {
 .intro__container {
   margin: 160px 120px 32px;
 	display: grid;
-	grid-template-columns: 60% 40%;
+	grid-template-columns: 65% 35%;
 }
 
 .intro__logo {
