@@ -158,8 +158,9 @@ a {
   margin: 32px 0;
 }
 .credits__container {
-	width: 100%;
-	margin-bottom: 56px;
+	display: grid;
+	grid-column: 50% 50%;
+	margin: 56px 0;
 }
 .credits__text {
 	font-size: 1.2em;
