@@ -2,7 +2,7 @@
 	display: grid;
 	grid-template-columns: 16% 84%;
 	margin: 32px;
-	border: solid rgba(155, 155, 155, 0.2);
+	border: 1px solid rgba(255, 255, 255, 0.2);
 
 }
 .services__container {
