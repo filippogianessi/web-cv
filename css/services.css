@@ -1,54 +1,5 @@
 
 
-
-.services {
-	margin-top: 64px;
-}
-.services__title {
-  margin: 0 120px 32px;
-}
-.services__container {
-    display: grid;
-    -webkit-box-align: start;
-    -ms-flex-align: start;
-    align-items: start;
-    margin: 0 120px;
-}
-
-
-.service__container {
-    display: flex;
-    flex-direction: column;
-    margin: 8px;
-    align-content: center;
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    align-items: center;
-    padding: 32px;
-}
-.service__text-container {
-	text-align: center;
-}
-.service__icon {
-    width: 5em;
-    margin: 0 0 32px;
-}
-.service__text {
-    font-size: 1.2em;
-    font-family: "FreakGrotesque Next", sans-serif;
-    color: white;
-    margin-bottom: 16px;
-    line-height: 1.4;
-}
-.service__title {
-	font-size: 1.6em;
-	font-family: "FreakGrotesque Next", sans-serif;
-	color: white;
-	text-decoration: underline;
-	margin-bottom: 12px;
-}
-
-
-
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen
 and (min-device-width : 320px)
@@ -126,4 +77,51 @@ only screen and (min-device-pixel-ratio : 1.5) {
 	.services__container {
 		grid-template-columns: 100%;
 	}
+}
+
+
+.services {
+	margin-top: 64px;
+}
+.services__title {
+  margin: 0 120px 32px;
+}
+.services__container {
+    display: grid;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: start;
+    margin: 0 120px;
+}
+
+
+.service__container {
+    display: flex;
+    flex-direction: column;
+    margin: 8px;
+    align-content: center;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    align-items: center;
+    padding: 32px;
+}
+.service__text-container {
+	text-align: center;
+}
+.service__icon {
+    width: 5em;
+    margin: 0 0 32px;
+}
+.service__text {
+    font-size: 1.2em;
+    font-family: "FreakGrotesque Next", sans-serif;
+    color: white;
+    margin-bottom: 16px;
+    line-height: 1.4;
+}
+.service__title {
+	font-size: 1.6em;
+	font-family: "FreakGrotesque Next", sans-serif;
+	color: white;
+	text-decoration: underline;
+	margin-bottom: 12px;
 }
