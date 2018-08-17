@@ -8,12 +8,12 @@
   color: black;
 }
 .showreel__container {
-  margin: 0 120px;
+
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
 
 .showreel__image img{
-  height: 320px;
+  height: 4800px;
 }
