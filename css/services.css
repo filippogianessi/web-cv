@@ -1,12 +1,5 @@
 /* RETINA display */
-@media screen
-  and (min-device-width: 1600px)
-	and (max-device-width: 4000px)
-  and (-webkit-min-device-pixel-ratio: 2){
-		.services__container {
-				grid-template-columns: 25% 25% 25% 25%;
-		}
-}
+
 @media screen
   and (min-device-width: 1200px)
   and (max-device-width: 1600px)
@@ -25,13 +18,7 @@
 		    grid-template-columns: 50% 50%;
 		}
 	}
-	@media screen
-	  and (min-device-width: 1600px)
-	  and (-webkit-min-device-pixel-ratio: 1) {
-			.services__container {
-					grid-template-columns: 25% 25% 25% 25%;
-			}
-	}
+
 
 .services {
 	margin-top: 64px;
@@ -45,6 +32,7 @@
     -ms-flex-align: start;
     align-items: start;
     margin: 0 120px;
+		grid-template-columns: 25% 25% 25% 25%;
 }
 
 
