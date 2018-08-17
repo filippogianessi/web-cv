@@ -92,6 +92,8 @@ only screen and (min-device-pixel-ratio : 1.5) {
     -ms-flex-align: start;
     align-items: start;
     margin: 0 120px;
+		grid-template-columns: 25% 25% 25% 25%;
+
 }
 
 
