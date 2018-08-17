@@ -46,7 +46,7 @@ a {
 .intro__container {
   margin: 160px 120px 32px;
 	display: grid;
-	grid-template-columns: 70% 30%;
+	grid-template-columns: 60% 40%;
 }
 
 
@@ -210,38 +210,4 @@ a {
       height: 100%;
     }
   }
-}
-
-.service__container {
-	display: grid;
-	grid-template-columns: 16% 84%;
-	margin: 32px;
-
-}
-.services__container {
-	display: grid;
-	grid-template-columns: 50% 50%;
-	margin: 96px;
-	-webkit-box-align: start;
-	    -ms-flex-align: start;
-	        align-items: start;
-
-}
-.service__text {
-	font-size: 1.4em;
-	font-family: "FreakGrotesque Next", sans-serif;
-	color: white;
-	margin-bottom: 16px;
-	line-height: 1.4;
-}
-.service__title {
-	font-size: 1.6em;
-	font-family: "FreakGrotesque Next", sans-serif;
-	color: white;
-	text-decoration: underline;
-	margin-bottom: 12px;
-}
-
-.service__text-container {
-
 }
