@@ -81,7 +81,7 @@ only screen and (min-device-pixel-ratio : 1.5) {
 
 
 .services {
-	margin-top: 64px;
+	margin: 64px 0;
 }
 .services__title {
   margin: 0 120px 32px;
