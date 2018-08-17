@@ -1,4 +1,8 @@
 .marquee__link {
+  text-decoration: none;
+  color: white;
+}
+.marquee__link:hover {
   text-decoration: underline;
   color: white;
 }
