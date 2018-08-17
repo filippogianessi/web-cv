@@ -38,7 +38,7 @@ a {
 
  }
 
-.header__text {
+.intro__text {
 	font-size: 4em;
 	font-family: "FreakGrotesque Next", sans-serif;
 	color: white;
@@ -47,23 +47,12 @@ a {
 	/*font-feature-settings: "ss08";*/
 }
 
-.header__container {
-    margin: 160px 120px 32px;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	    -ms-flex-direction: column;
-	        flex-direction: column;
+.intro__container {
+  margin: 160px 120px 32px;
+	display: grid;
+	grid-template-columns: 80% 20%;
 }
 
-.header__secondary-text {
-	font-size: 1.6em;
-	font-family: "FreakGrotesque Next", sans-serif;
-	color: white;
-	text-align: center;
-}
 
 .links__container {
 	display: -webkit-box;
