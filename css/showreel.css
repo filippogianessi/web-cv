@@ -8,11 +8,8 @@
 }
 .showreel__container {
 
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: 50% 50%;
   margin: 0 120px;
 }
 
