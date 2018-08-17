@@ -7,3 +7,8 @@
   margin: 16px 120px 32px;
   color: black;
 }
+.showreel__container {
+  margin: 0 120px;
+  display: flex;
+  flex-direction: row;
+}
