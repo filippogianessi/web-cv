@@ -5,7 +5,7 @@
 and (min-device-width : 320px)
 and (max-device-width : 480px) {
 	.services__container {
-		grid-template-columns: 100%;
+		grid-template-columns: 100%!important;
 	}
 }
 
@@ -13,7 +13,7 @@ and (max-device-width : 480px) {
 @media only screen
 and (min-width : 321px) {
 	.services__container {
-		grid-template-columns: 100%;
+		grid-template-columns: 100%!important;
 	}
 }
 
@@ -21,7 +21,7 @@ and (min-width : 321px) {
 @media only screen
 and (max-width : 320px) {
 	.services__container {
-		grid-template-columns: 100%;
+		grid-template-columns: 100%!important;
 	}
 }
 
@@ -30,7 +30,7 @@ and (max-width : 320px) {
 and (min-device-width : 768px)
 and (max-device-width : 1024px) {
 	.services__container {
-		grid-template-columns: 50% 50%;
+		grid-template-columns: 50% 50%!important;
 	}
 }
 
@@ -40,7 +40,7 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px)
 and (orientation : landscape) {
 	.services__container {
-		grid-template-columns: 50% 50%;
+		grid-template-columns: 50% 50%!important;
 	}
 }
 
@@ -50,7 +50,7 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px)
 and (orientation : portrait) {
 	.services__container {
-		grid-template-columns: 50% 50%;
+		grid-template-columns: 50% 50%!important;
 	}
 }
 
@@ -58,7 +58,7 @@ and (orientation : portrait) {
 @media only screen
 and (min-width : 1224px) {
 	.services__container {
-		grid-template-columns: 50% 50%;
+		grid-template-columns: 50% 50%!important;
 	}
 }
 
@@ -66,7 +66,7 @@ and (min-width : 1224px) {
 @media only screen
 and (min-width : 1824px) {
 	.services__container {
-		grid-template-columns: 25% 25% 25% 25%;
+		grid-template-columns: 25% 25% 25% 25%!important;
 	}
 }
 
