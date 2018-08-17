@@ -12,3 +12,7 @@
   display: flex;
   flex-direction: row;
 }
+
+.showreel__image{
+  height: 320px;
+}
