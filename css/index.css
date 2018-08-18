@@ -45,6 +45,11 @@ a {
 	/*font-feature-settings: "ss08";*/
 }
 
+.intro__text a {
+	color: white;
+	text-decoration: underline;
+}
+
 .intro__container {
   margin: 160px 120px 16px;
 	display: grid;
