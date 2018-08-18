@@ -176,8 +176,9 @@ a {
 	text-align: center;
 }
 
-.credits__text span {
+.credits__text a {
 	text-decoration: underline;
+	color: white;
 }
 
 .madeby__container {
