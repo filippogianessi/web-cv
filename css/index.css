@@ -249,9 +249,19 @@ a {
 	opacity: .9;
 	transition: 1s;
 	z-index: 99999;
+
 }
 
 
 .preloader.complete {
 	opacity: 0;
+}
+
+.preloader svg {
+	width: 75%;
+	position: fixed;
+	left: 50%;
+	margin-left: -37.5%;
+	top: 40%;
+
 }
