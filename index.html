@@ -8,9 +8,8 @@
 		<link rel="stylesheet" href="css/typography.css">
 		<link rel="stylesheet" href="css/services.css">
 		<link rel="stylesheet" href="css/showreel.css">
-		<script src="js/jquery.js"></script>
-		<script src="js/plugins.js"></script>
-		<script src="js/jquery.main.js"></script>
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
 		<script src="granim.min.js"></script>
 		<link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
 		<link rel="stylesheet"
@@ -18,17 +17,20 @@
 
 		<meta content="width=device-width, initial-scale=1" name="viewport" />
 
+		<script type="text/javascript">
+			$(window).on('load',function(){
+				$('.preloader').addClass('complete')
+			})
+		</script>
+
 	</head>
 
-	<script type="text/javascript">
-		$(window).load(function() {
-		// Animate loader off screen
-		$(".se-pre-con").fadeOut("slow");;
-	});
-	</script>
 
 	<body>
-		<div class="se-pre-con">
+		<div class="preloader">
+
+		</div>
+
 			<div class="marquee__container">
 	      <div class="marquee">
 	        <div class="marquee__text">
@@ -189,7 +191,6 @@
 	    <div class="change-ss__container fadeInDown animated">
 	      <div class="change-ss__text">Tap everywhere to change the <a href="#" class="resume__link">ss</a>!</div>
 	    </div>
-		</div>
 
 
 	<script>
