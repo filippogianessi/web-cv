@@ -43,6 +43,8 @@ a {
 .intro__text {
 	margin-bottom: 1em;
 	/*font-feature-settings: "ss08";*/
+	font-size: 48px;
+	line-height: 56px;
 }
 
 .intro__text a {
@@ -240,7 +242,6 @@ a {
 
 
 .preloader {
-	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -255,6 +256,7 @@ a {
 
 .preloader.complete {
 	opacity: 0;
+	display: none;
 }
 
 .preloader svg {
